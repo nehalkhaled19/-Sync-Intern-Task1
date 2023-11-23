@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.home {
+  background-image: url('imgs/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*--------------- NavBar------------- */
+nav {
+  background-color: #75727299;
+
+}
+
+/* navbrand */
+.navbar-brand .logo {
+  width: 10%;
+}
+
+.navbar-brand span {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #fff;
+}
+
+/*--------------- Main------------- */
+.main-bg {
+  background-color: #ffffffa1;
+}
+.new-button:hover,
+.new-button:active {
+  color: #3190ee !important;
+  background-color: #fff !important;
+  border: #3190ee 1px solid;
+}
+input{
+  font-size: 18px !important;
+  color: #3190ee !important;
+}
+.new-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  background-color: #3190ee;
+  color: #fff;
+  font-size: 20px;
+}
+.text-font{
+  /* font-weight: 700px; */
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.min-width{
+  width: 48%;
+}
+.home {
+  height: 100vh;
+}
+.main-margin{
+  margin-top: 55px;
+}
+
+@media (max-width: 767px) {
+  .home {
+    height: 100%;
+  }
 }
